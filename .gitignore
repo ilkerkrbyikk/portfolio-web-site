@@ -1,0 +1,70 @@
+# Node.js bağımlılıkları
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite ve React derleme dosyaları
+dist/
+.vite/
+.cache/
+
+# Çevresel değişkenler (API anahtarları vb.)
+.env
+.env.local
+.env.*.local
+
+# Editör ve IDE dosyaları
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS ve Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Log ve geçici dosyalar
+*.log
+logs/
+*.bak
+*.swp
+*.swo
+
+# Test ve Coverage dosyaları
+coverage/
+*.lcov
+.nyc_output/
+
+# Paket yöneticileri
+.pnp/
+.pnp.js
+
+# ESLint, Prettier ve diğer kod formatlayıcı dosyaları
+.eslintcache
+.prettierignore
+.prettiercache
+
+# Hatalı veya yanlışlıkla oluşturulan dosyalar
+debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript dosyaları (Eğer TypeScript kullanıyorsan)
+*.tsbuildinfo
+
+# Husky (Git hook yönetimi)
+.husky/_
+
+# MacOS özel dosyaları
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux özel dosyaları
+*~
+
+# Windows özel dosyaları
+Thumbs.db
+ehthumbs.db
